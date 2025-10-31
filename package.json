@@ -1,29 +1,36 @@
 {
-  "name": "jianlongli.gg",
-  "version": "0.1.0",
+  "name": "nextjs-tailwind-portfolio-page",
+  "version": "1.0.0",
   "private": true,
+  "author": "Creative Tim",
+  "license": "See license in https://www.creative-tim.com/license",
+  "homepage": "https://github.com/themewagon/Next.js-Tailwind-CSS-Portfolio-Template",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "touch out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
-    "next": "16.0.1",
-    "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "@heroicons/react": "2.0.18",
+    "@material-tailwind/react": "2.1.0",
+    "@tailwindcss/postcss": "^4.1.16",
+    "next": "13.4.0",
+    "react": "18",
+    "react-dom": "18"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.16",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "autoprefixer": "^10.4.21",
-    "babel-plugin-react-compiler": "1.0.0",
-    "eslint": "^9",
-    "eslint-config-next": "16.0.1",
+    "@types/node": "20",
+    "@types/react": "18.2.19",
+    "@types/react-dom": "18",
+    "autoprefixer": "10",
+    "eslint": "8",
+    "eslint-config-next": "13.5.4",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.16",
-    "typescript": "^5"
+    "tailwindcss": "^3.4.18",
+    "typescript": "5"
   }
 }
