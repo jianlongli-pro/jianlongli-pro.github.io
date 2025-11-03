@@ -20,9 +20,8 @@ function Hero() {
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            I&apos;m Lily Smith, a passionate web developer based in USA. Here,
-            you&apos;ll get a glimpse of my journey in the world of web
-            development, where creativity meets functionality.
+            Le software n'est pas qu'une solution, c'est la porte d'entrée pour de nouvelles perspectives.
+            Je suis à l'intersection de l'ingénierie technique et de la créativité
           </Typography>
           <div className="grid">
             <Typography
