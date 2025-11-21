@@ -11,9 +11,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js + Tailwind Portfolio Page",
+  title: "Jian Long LI's website",
   description:
-    "Introducing Tailwind Portfolio Page, a versatile and stylish portfolio template built on the foundation of Tailwind CSS and Material Tailwind.",
+    "Site web de Jian Long, Ingénieur Logiciel diplômé de ESIEE Paris",
 };
 
 export default function RootLayout({

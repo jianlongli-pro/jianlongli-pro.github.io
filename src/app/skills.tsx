@@ -13,40 +13,57 @@ import { SkillCard } from "@/components";
 
 const SKILLS = [
   {
-    icon: RectangleGroupIcon,
-    title: "Frontend Web Development:",
+    icon: FingerPrintIcon,
+    title: "Développement GUI & Design UI/UX",
     children:
-      "Creating beautiful and functional web experiences is my forte. Using the latest technologies and best practices, I design and build websites that captivate and engage users.",
+      <>
+      Je crée des interfaces graphiques intuitifs et user-friendly. Je m'occupe de mettre en place une solution documentée et suivie en framework en Qt, Tkinter, avec Python et MATLAB.
+      </>
   },
   {
-    icon: FingerPrintIcon,
-    title: "Mobile App Development",
-    children:
-      " I specialize in creating responsive and intuitive mobile apps that work seamlessly across iOS & Android devices. From concept to deployment, I handle every stage of the development process.",
+    icon: RectangleGroupIcon,
+    title: "Développement Front-End",
+    children:(
+      <>
+      Je possède un bagage technique solide dans le domaine du développement Front. J'opère dans les frameworks suivants : HTML, CSS, Javascript, mais aussi Next.JS, TailwindCSS.
+      </>
+    ),
   },
   {
     icon: SwatchIcon,
-    title: "Technology Stack",
-    children:
-      "I'm well-versed in the industry's most popular frontend technologies, including HTML5, CSS3, JavaScript, and frameworks like React and React Native.",
+    title: "Data Science & Machine Learning",
+    children:(
+      <>
+      Je livre des solutions de Data Visualisation, Data processing, Optimisation & Validation de modèles prédictifs sur les langages <strong>Python & R</strong>. Sur les frameworks Sci-kit Learn, Pandas, Jupyter. Je travaille également avec les API de services Web, notamment pour la data fetching.
+      </>
+    )
   },
   {
     icon: HashtagIcon,
-    title: " Web Optimization",
-    children:
-      "Performance matters. I optimize websites and apps for speed, ensuring your users enjoy a fast and responsive experience, which in turn boosts user satisfaction and SEO rankings.",
-  },
-  {
-    icon: EyeIcon,
-    title: "User-Centric Design",
-    children:
-      "My development goes hand-in-hand with an eye for design. I create user interfaces that are not only functional but also aesthetically pleasing, providing a seamless and enjoyable user journey.",
+    title: "Ingénierie Logiciel Généraliste",
+    children:(
+      <>
+      En complément de mes compétences, je travaille sur les frameworks suivants : C embarqué, Java, SQL, Linux, et du POO. Mais également avec des technologies industrielles : FrontVue, Centreon, Proxmox, WMware, Filezilla (FTP/SFTP), OPCUA/OPCDA.
+      </>
+      )
   },
   {
     icon: DocumentTextIcon,
-    title: "Testing and Quality Assurance",
-    children:
-      "I rigorously test and debug applications to guarantee a bug-free and secure environment for users. Your peace of mind is as important to me as the functionality of your project.",
+    title: "Testing et Documentation",
+    children:(
+      <>
+      Je teste et debug rigousement tout au long du développement. J'assure la livraison d'une solution <strong>sans bug, pérenne et documentée</strong>. Pour une utilisation simple et paisible
+      </>
+    )
+  },
+    {
+    icon: EyeIcon,
+    title: "Trilingue Chinois/Anglais/Français",
+    children:(
+      <>
+      En plus de mes compétences techniques, je parle couramment : <strong>Chinois (Natif), Anglais (Courant), Français (Natif)</strong>.
+      </>
+    )
   },
 ];
 
@@ -55,18 +72,10 @@ export function Skills() {
     <section className="px-8">
       <div className="container mx-auto mb-20 text-center">
         <Typography color="blue-gray" className="mb-2 font-bold uppercase">
-          my skills
+          mes compétecnes
         </Typography>
         <Typography variant="h1" color="blue-gray" className="mb-4">
-          What I do
-        </Typography>
-        <Typography
-          variant="lead"
-          className="mx-auto w-full !text-gray-500 lg:w-10/12"
-        >
-          I&apos;m not just a developer; I&apos;m a digital dreamweaver.
-          Crafting immersive online experiences is not just a job but my
-          calling. Discover below how I can help you.
+          Les services proposées
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-3">

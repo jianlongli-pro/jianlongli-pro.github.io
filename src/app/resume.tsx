@@ -12,7 +12,7 @@ import { ResumeItem } from "@/components";
 const RESUME_ITEMS = [
   {
     icon: ChartBarIcon,
-    children: "Bachelor of Science in Computer Science",
+    children: "Diplômé Ingénieur Généraliste à l'ESIEE Paris",
   },
   {
     icon: PuzzlePieceIcon,
@@ -30,19 +30,19 @@ export function Resume() {
       <div className="container mx-auto grid w-full grid-cols-1 items-center gap-16 lg:grid-cols-2">
         <div className="col-span-1">
           <Typography variant="h2" color="blue-gray">
-            My Resume
+            Mon CV
           </Typography>
           <Typography className="mb-4 mt-3 w-9/12 font-normal !text-gray-500">
-            Highly skilled and creative Web Developer with 5+ years of
-            experience in crafting visually stunning and functionally robust
-            websites and web applications.
+            Ingénieur trilingue (FR/EN/CN) avec 2 ans d’expérience dans l’aéronautique, l’infrastructure, la recherche
+            biomédicale et le développement logiciel. J’ai renforcé mes compétences en développement logiciel en assumant des
+            responsabilités d’ingénierie projet, et je vise désormais des fonctions alliant expertise technique et pilotage managérial.
           </Typography>
           <Button
             variant="text"
             color="gray"
             className="flex items-center gap-2"
           >
-            view more
+            voir plus
             <ArrowRightIcon
               strokeWidth={3}
               className="h-3.5 w-3.5 text-gray-900"
