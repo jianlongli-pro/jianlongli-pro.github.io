@@ -43,7 +43,7 @@ export function Projects() {
           variant="lead"
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
         >
-          Je permets aux idées de passer à la réalité, voici les projets auquel j'ai contribué tout au long de ma carrière
+          Je permets aux idées de passer à la réalité, voici les projets auquel j&apos;ai contribué tout au long de ma carrière
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4">
