@@ -22,8 +22,8 @@ function Hero() {
             variant="lead"
             className="mb-4 !text-gray-400 md:pr-16 xl:pr-28"
           >
-            Le software n'est pas qu'une solution, c'est la porte d'entrée pour de nouvelles perspectives et d'opportunités.
-            Je suis à l'intersection de l'ingénierie technique et de la créativité.
+            Le software n&apos;est pas qu&apos;une solution, c&apos;est la porte d&apos;entrée pour de nouvelles perspectives et d&apos;opportunités.
+            Je suis à l&apos;intersection de l&apos;ingénierie technique et de la créativité.
           </Typography>
           <div className="grid">
             <Typography

@@ -27,7 +27,7 @@ export function Clients() {
     <section className="px-8 py-28">
       <div className="container mx-auto text-center">
         <Typography variant="h6" color="blue-gray" className="mb-8">
-          ILS M'ONT FAIT CONFIANCE
+          ILS M&apos;ONT FAIT CONFIANCE
         </Typography>
         <div className="flex flex-wrap items-center justify-center gap-16">
           {CLIENTS.map((logo, key) => (

@@ -17,7 +17,7 @@ const SKILLS = [
     title: "Développement GUI & Design UI/UX",
     children:
       <>
-      Je crée des interfaces graphiques intuitifs et user-friendly. Je m'occupe de mettre en place une solution documentée et suivie en framework en Qt, Tkinter, avec Python et MATLAB.
+      Je crée des interfaces graphiques intuitifs et user-friendly. Je m&apos;occupe de mettre en place une solution documentée et suivie en framework en Qt, Tkinter, avec Python et MATLAB.
       </>
   },
   {
@@ -25,7 +25,7 @@ const SKILLS = [
     title: "Développement Front-End",
     children:(
       <>
-      Je possède un bagage technique solide dans le domaine du développement Front. J'opère dans les frameworks suivants : HTML, CSS, Javascript, mais aussi Next.JS, TailwindCSS.
+      Je possède un bagage technique solide dans le domaine du développement Front. J&apos;opère dans les frameworks suivants : HTML, CSS, Javascript, mais aussi Next.JS, TailwindCSS.
       </>
     ),
   },
@@ -52,7 +52,7 @@ const SKILLS = [
     title: "Testing et Documentation",
     children:(
       <>
-      Je teste et debug rigousement tout au long du développement. J'assure la livraison d'une solution <strong>sans bug, pérenne et documentée</strong>. Pour une utilisation simple et paisible
+      Je teste et debug rigousement tout au long du développement. J&apos;assure la livraison d&apos;une solution <strong>sans bug, pérenne et documentée</strong>. Pour une utilisation simple et paisible
       </>
     )
   },
